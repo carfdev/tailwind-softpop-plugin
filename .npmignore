@@ -1,0 +1,5 @@
+.github/*
+.vscode/*
+.gitignore
+pnpm-workspace.yaml
+README.md

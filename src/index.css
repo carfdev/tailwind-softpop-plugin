@@ -1,0 +1,164 @@
+@theme {
+  --font-heading: "Nunito", "Nunito Variable", sans-serif;
+  --font-body: "Mulish", "Mulish Variable", sans-serif;
+
+  --color-primary-50: oklch(0.9784 0.0053 197.07);
+  --color-primary-100: oklch(0.9299 0.0182 188.37);
+  --color-primary-200: oklch(0.8577 0.035 192.02);
+  --color-primary-300: oklch(0.7624 0.0527 191.47);
+  --color-primary-400: oklch(0.6216 0.0582 194.28);
+  --color-primary-500: oklch(0.5707 0.0609 195.58);
+  --color-primary-600: oklch(0.4814 0.0506 197.42);
+  --color-primary-700: oklch(0.4193 0.0415 197.97);
+  --color-primary-800: oklch(0.3661 0.0318 198.94);
+  --color-primary-900: oklch(0.3347 0.0266 195.95);
+  --color-primary-950: oklch(0.2282 0.0185 207.99);
+
+  --color-secondary-50: oklch(0.9763 0.0105 39.44);
+  --color-secondary-100: oklch(0.9476 0.027 37.63);
+  --color-secondary-200: oklch(0.9053 0.0506 37.9);
+  --color-secondary-300: oklch(0.8686 0.0724 37.64);
+  --color-secondary-400: oklch(0.7594 0.143 37.81);
+  --color-secondary-500: oklch(0.6879 0.1818 37.42);
+  --color-secondary-600: oklch(0.6211 0.193 36.28);
+  --color-secondary-700: oklch(0.5437 0.1709 36.23);
+  --color-secondary-800: oklch(0.4779 0.1435 36.54);
+  --color-secondary-900: oklch(0.4267 0.1165 37.04);
+  --color-secondary-950: oklch(0.2784 0.0777 37.47);
+
+  --color-accent-50: oklch(0.9767 0.0055 31.05);
+  --color-accent-100: oklch(0.947 0.0142 22.77);
+  --color-accent-200: oklch(0.9057 0.0246 23.86);
+  --color-accent-300: oklch(0.8387 0.0429 25.29);
+  --color-accent-400: oklch(0.7709 0.061 24.99);
+  --color-accent-500: oklch(0.6497 0.0941 25.8);
+  --color-accent-600: oklch(0.5705 0.103 26.91);
+  --color-accent-700: oklch(0.4978 0.0902 27.12);
+  --color-accent-800: oklch(0.4422 0.0744 26.2);
+  --color-accent-900: oklch(0.402 0.0603 25.93);
+  --color-accent-950: oklch(0.2598 0.04 25.08);
+
+  --color-base-50: oklch(0.9763 0.007 88.64);
+  --color-base-100: oklch(0.949 0.0165 91.55);
+  --color-base-200: oklch(0.8899 0.0298 87.55);
+  --color-base-300: oklch(0.8164 0.0496 84.52);
+  --color-base-400: oklch(0.7299 0.0667 78.09);
+  --color-base-500: oklch(0.6663 0.0769 73.28);
+  --color-base-600: oklch(0.6138 0.0761 65.6);
+  --color-base-700: oklch(0.5338 0.0656 60.69);
+  --color-base-800: oklch(0.4616 0.0508 54.78);
+  --color-base-900: oklch(0.4046 0.042 54.89);
+  --color-base-950: oklch(0.2663 0.026 50.99);
+
+  --color-neutral-50: oklch(0.9766 0.0034 174.48);
+  --color-neutral-100: oklch(0.9236 0.01 181.39);
+  --color-neutral-200: oklch(0.8438 0.0189 184.18);
+  --color-neutral-300: oklch(0.7398 0.0289 188.05);
+  --color-neutral-400: oklch(0.6288 0.0351 189);
+  --color-neutral-500: oklch(0.5385 0.0347 191.06);
+  --color-neutral-600: oklch(0.4579 0.03 193.07);
+  --color-neutral-700: oklch(0.3822 0.0228 192);
+  --color-neutral-800: oklch(0.3541 0.0195 191.26);
+  --color-neutral-900: oklch(0.3224 0.0149 189.67);
+  --color-neutral-950: oklch(0.2258 0.0132 187.88);
+
+  --color-success-50: oklch(0.9712 0.0075 151.89);
+  --color-success-100: oklch(0.9297 0.0222 145.39);
+  --color-success-200: oklch(0.8616 0.0385 148.85);
+  --color-success-300: oklch(0.7457 0.0672 149.5);
+  --color-success-400: oklch(0.6484 0.0818 149.79);
+  --color-success-500: oklch(0.5498 0.0878 150.29);
+  --color-success-600: oklch(0.4627 0.0781 150.01);
+  --color-success-700: oklch(0.398 0.0644 151.04);
+  --color-success-800: oklch(0.3456 0.0509 151.81);
+  --color-success-900: oklch(0.3074 0.0431 152.51);
+  --color-success-950: oklch(0.2188 0.0264 155.37);
+
+  --color-warning-50: oklch(0.9795 0.0139 88.68);
+  --color-warning-100: oklch(0.9409 0.0371 90.07);
+  --color-warning-200: oklch(0.8758 0.0767 88.25);
+  --color-warning-300: oklch(0.8222 0.1011 84.95);
+  --color-warning-400: oklch(0.7492 0.1259 78.16);
+  --color-warning-500: oklch(0.6823 0.133 65.55);
+  --color-warning-600: oklch(0.5972 0.1277 55.44);
+  --color-warning-700: oklch(0.5068 0.115 46.6);
+  --color-warning-800: oklch(0.4372 0.0969 41.92);
+  --color-warning-900: oklch(0.3869 0.0796 41.59);
+  --color-warning-950: oklch(0.2607 0.0577 39.75);
+
+  --color-error-50: oklch(0.9748 0.0064 17.27);
+  --color-error-100: oklch(0.9437 0.0174 17.47);
+  --color-error-200: oklch(0.8979 0.0335 17.79);
+  --color-error-300: oklch(0.8252 0.0593 18.43);
+  --color-error-400: oklch(0.6821 0.1135 20.44);
+  --color-error-500: oklch(0.633 0.1259 21.26);
+  --color-error-600: oklch(0.5553 0.1383 22.67);
+  --color-error-700: oklch(0.4842 0.1227 22.8);
+  --color-error-800: oklch(0.4306 0.1031 22.38);
+  --color-error-900: oklch(0.3916 0.0803 21.42);
+  --color-error-950: oklch(0.2534 0.0559 21.84);
+
+  --color-info-50: oklch(0.9767 0.005 228.82);
+  --color-info-100: oklch(0.9441 0.0126 236.63);
+  --color-info-200: oklch(0.9035 0.0211 232.15);
+  --color-info-300: oklch(0.8403 0.036 226.65);
+  --color-info-400: oklch(0.757 0.0533 230.57);
+  --color-info-500: oklch(0.7118 0.0605 238.55);
+  --color-info-600: oklch(0.6178 0.0742 246.63);
+  --color-info-700: oklch(0.5628 0.0742 252.4);
+  --color-info-800: oklch(0.4953 0.0608 253.17);
+  --color-info-900: oklch(0.4321 0.0471 253.37);
+  --color-info-950: oklch(0.3211 0.0292 254.66);
+
+  --radius-btn: 999px;
+  --radius-card: 16px;
+
+  --shadow-hard: 4px 4px 0px var(--color-neutral-700);
+  --shadow-hard-hover: 6px 6px 0px var(--color-neutral-700);
+  --shadow-hard-active: 2px 2px 0px var(--color-neutral-700);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-base-50);
+    color: var(--color-neutral-700);
+    font-family: var(--font-body);
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    color: var(--color-neutral-900);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 1.5rem + 3.75vw, 4rem);
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: clamp(1.75rem, 1.25rem + 2.5vw, 3rem);
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2rem);
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: 1.5em;
+    max-width: 75ch;
+  }
+}
+
+@plugin "./index.js";

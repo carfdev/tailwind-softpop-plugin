@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-softpop-plugin",
+  "version": "0.0.1",
+  "description": "Tailwind CSS plugin for softpop design system",
+  "style": "./src/index.css",
+  "exports": {
+    ".": "./src/index.css",
+    "./index.css": "./src/index.css"
+  },
+  "type": "module",
+  "scripts": {
+    "publish:official": "pnpm publish --access public --no-git-checks"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "plugin",
+    "softpop",
+    "design system"
+  ],
+  "author": "CarfDev (@carfdev)",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.1.18"
+  }
+}
