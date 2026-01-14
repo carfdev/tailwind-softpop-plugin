@@ -120,5 +120,32 @@ module.exports = plugin(function ({ addComponents }) {
         marginBottom: "0",
       },
     },
+    ".badge": {
+      display: "inline-flex",
+      alignItems: "center",
+      paddingInline: "calc(var(--spacing) * 3) /* 0.75rem = 12px */",
+      paddingBlock: "calc(var(--spacing) * 1) /* 0.25rem = 4px */",
+      borderRadius: "calc(infinity * 1px)",
+      fontSize: "var(--text-sm) /* 0.875rem = 14px */",
+      lineHeight: "var(--tw-leading, var(--text-sm--line-height))",
+      fontWeight: "var(--font-weight-bold) /* 700 */",
+      borderStyle: "var(--tw-border-style)",
+      borderWidth: "2px",
+    },
+    ".badge-primary": {
+      backgroundColor: "var(--color-primary-100)",
+      color: "var(--color-primary-800)",
+      borderColor: "var(--color-primary-800)",
+    },
+    ".badge-secondary": {
+      backgroundColor: "var(--color-secondary-100)",
+      color: "var(--color-secondary-800)",
+      borderColor: "var(--color-secondary-800)",
+    },
+    ".badge-outline": {
+      backgroundColor: "transparent",
+      color: "var(--color-neutral-800)",
+      borderColor: "var(--color-neutral-800)",
+    },
   });
 });
