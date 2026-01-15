@@ -1,11 +1,17 @@
 {
   "name": "tailwind-softpop-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Tailwind CSS plugin for softpop design system",
   "style": "./src/index.css",
   "exports": {
     ".": "./src/index.css",
-    "./index.css": "./src/index.css"
+    "./index.css": "./src/index.css",
+    "./mulish": "./src/fonts/mulish/index.css",
+    "./nunito": "./src/fonts/nunito/index.css",
+    "./mulish/index.css": "./src/fonts/mulish/index.css",
+    "./nunito/index.css": "./src/fonts/nunito/index.css",
+    "./mulish.woff2": "./src/fonts/mulish/files/mulish.woff2",
+    "./nunito.woff2": "./src/fonts/nunito/files/nunito.woff2"
   },
   "type": "module",
   "scripts": {
