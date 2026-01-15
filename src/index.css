@@ -1,6 +1,9 @@
+@import "./fonts/nunito/index.css";
+@import "./fonts/mulish/index.css";
+
 @theme {
-  --font-heading: "Nunito", "Nunito Variable", sans-serif;
-  --font-body: "Mulish", "Mulish Variable", sans-serif;
+  --font-heading: "Nunito", sans-serif;
+  --font-body: "Mulish", sans-serif;
 
   --color-primary-50: oklch(0.9784 0.0053 197.07);
   --color-primary-100: oklch(0.9299 0.0182 188.37);
