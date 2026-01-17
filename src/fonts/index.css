@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 1000;
+  src: url(./mulish/files/mulish.woff2) format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0100-017F;
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 1000;
+  src: url(./nunito/files/nunito.woff2) format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0100-017F;
+}

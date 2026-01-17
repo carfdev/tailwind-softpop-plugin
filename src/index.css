@@ -1,6 +1,3 @@
-@import "./fonts/nunito/index.css";
-@import "./fonts/mulish/index.css";
-
 @plugin "./scrollbar/index.js";
 
 @theme {
