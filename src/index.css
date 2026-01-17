@@ -1,6 +1,8 @@
 @import "./fonts/nunito/index.css";
 @import "./fonts/mulish/index.css";
 
+@plugin "./scrollbar/index.js";
+
 @theme {
   --font-heading: "Nunito", sans-serif;
   --font-body: "Mulish", sans-serif;
@@ -122,6 +124,9 @@
 }
 
 @layer base {
+  html {
+    @apply scrollbar-thin scrollbar-thumb-primary-500 scrollbar-track-primary-100 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scroll-smooth;
+  }
   body {
     background-color: var(--color-base-50);
     color: var(--color-neutral-700);
@@ -162,6 +167,20 @@
   p {
     margin-bottom: 1.5em;
     max-width: 75ch;
+  }
+
+  button {
+    @apply focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-500/60;
+  }
+
+  a {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500/60 focus-visible:rounded-sm;
+  }
+}
+
+@layer utilities {
+  .scrollable {
+    @apply scrollbar-thin scrollbar-thumb-primary-500 scrollbar-track-primary-100 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scroll-smooth;
   }
 }
 

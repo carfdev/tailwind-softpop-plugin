@@ -58,6 +58,16 @@ module.exports = plugin(function ({ addComponents }) {
         transform: "none",
         boxShadow: "none",
       },
+      "&:focus-visible": {
+        "--tw-outline-style": "none",
+        outlineStyle: "none",
+        "--tw-ring-shadow":
+          "var(--tw-ring-inset,) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor)",
+        boxShadow:
+          "var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)",
+        "--tw-ring-color":
+          "color-mix(in oklab, var(--color-primary-500) 60%, transparent)",
+      },
     },
     ".btn-sm": {
       padding: "0.5rem 1rem",
