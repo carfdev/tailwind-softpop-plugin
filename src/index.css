@@ -178,10 +178,4 @@
   }
 }
 
-@layer utilities {
-  .scrollable {
-    @apply scrollbar-thin scrollbar-thumb-primary-500 scrollbar-track-primary-100 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scroll-smooth;
-  }
-}
-
 @plugin "./index.js";

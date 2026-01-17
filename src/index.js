@@ -350,5 +350,33 @@ module.exports = plugin(function ({ addComponents }) {
       color: "var(--color-neutral-800)",
       borderColor: "var(--color-neutral-800)",
     },
+    ".scrollable-y": {
+      overflowY: "auto",
+      scrollBehavior: "smooth",
+      "--scrollbar-thumb": "var(--color-primary-500)",
+      "--scrollbar-track": "var(--color-primary-100)",
+      "--scrollbar-thumb-radius": "9999px",
+      "--scrollbar-track-radius": "9999px",
+      "&::-webkit-scrollbar-track": {
+        backgroundColor: "var(--scrollbar-track)",
+        borderRadius: "var(--scrollbar-track-radius)",
+      },
+      "&::-webkit-scrollbar-thumb": {
+        backgroundColor: "var(--scrollbar-thumb)",
+        borderRadius: "var(--scrollbar-thumb-radius)",
+      },
+      "&::-webkit-scrollbar-corner": {
+        backgroundColor: "var(--scrollbar-corner)",
+        borderRadius: "var(--scrollbar-corner-radius)",
+      },
+      scrollbarWidth: "thin",
+      scrollbarColor:
+        "var(--scrollbar-thumb, initial) var(--scrollbar-track, initial)",
+      "&::-webkit-scrollbar": {
+        display: "block",
+        width: "8px",
+        height: "8px",
+      },
+    },
   });
 });
