@@ -162,8 +162,11 @@
   }
 
   p {
-    margin-bottom: 1.5em;
     max-width: 75ch;
+  }
+
+  p + p {
+    margin-top: 1.5em;
   }
 
   button {
