@@ -1,6 +1,6 @@
 {
   "name": "tailwind-softpop-plugin",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "Tailwind CSS plugin for softpop design system",
   "style": "./src/index.css",
   "exports": {
