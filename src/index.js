@@ -68,14 +68,26 @@ module.exports = plugin(function ({ addComponents }) {
         "--tw-ring-color":
           "color-mix(in oklab, var(--color-primary-500) 60%, transparent)",
       },
+      "&>svg": {
+        width: "1.125rem",
+        height: "1.125rem",
+      },
     },
     ".btn-sm": {
       padding: "0.5rem 1rem",
       fontSize: "0.875rem",
+      "&>svg": {
+        width: "1rem",
+        height: "1rem",
+      },
     },
     ".btn-lg": {
       padding: "1rem 2rem",
       fontSize: "1.25rem",
+      "&>svg": {
+        width: "1.25rem",
+        height: "1.25rem",
+      },
     },
     ".btn-block": {
       width: "100%",
@@ -334,6 +346,12 @@ module.exports = plugin(function ({ addComponents }) {
       fontWeight: "var(--font-weight-bold) /* 700 */",
       borderStyle: "var(--tw-border-style)",
       borderWidth: "2px",
+      gap: "calc(var(--spacing) * 2)",
+
+      "&>svg": {
+        width: "1rem",
+        height: "1rem",
+      },
     },
     ".badge-primary": {
       backgroundColor: "var(--color-primary-100)",
@@ -376,6 +394,23 @@ module.exports = plugin(function ({ addComponents }) {
         display: "block",
         width: "8px",
         height: "8px",
+      },
+    },
+    ".underline-svg": {
+      position: "relative",
+      display: "inline-block",
+
+      "&::after": {
+        content: "''",
+        position: "absolute",
+        bottom: "-0.25rem",
+        left: "0",
+        width: "100%",
+        height: "0.75rem",
+        zIndex: "-10",
+        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 100 10' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 5 Q 50 10 100 5' stroke='rgb(255 196 178)' stroke-width='8' fill='none'/%3E%3C/svg%3E")`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100% 100%",
       },
     },
   });
